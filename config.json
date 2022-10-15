@@ -1,0 +1,52 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "2a3192d0f8fe0c7cf959168e68eb16d8",
+      "css": "rss",
+      "code": 59392,
+      "src": "zocial"
+    },
+    {
+      "uid": "ffa340a4e2c3aa6ea354787b999bced7",
+      "css": "pi-outline",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "d2d6ab0dd4fb9365b1d5756380484bbb",
+      "css": "pi",
+      "code": 59394,
+      "src": "typicons"
+    },
+    {
+      "uid": "b74284571c2d4d0d251bd28dace4a1ba",
+      "css": "math-circled",
+      "code": 61468,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "ae734e5d304b9680558ab6b4449d55ee",
+      "css": "math-circled-empty",
+      "code": 61467,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "1ee2aeb352153a403df4b441a8bc9bda",
+      "css": "calc",
+      "code": 61932,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2de0dab5fbbc467b51692895fcce11e2",
+      "css": "calculator",
+      "code": 59395,
+      "src": "typicons"
+    }
+  ]
+}
