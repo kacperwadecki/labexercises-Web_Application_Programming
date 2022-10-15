@@ -58,6 +58,6 @@
 .icon-pi-outline:before { content: '\e801'; } /* '' */
 .icon-pi:before { content: '\e802'; font-size: 60px; margin-left: 0px; float:left;} /* '' */
 .icon-calculator:before { content: '\e803'; } /* '' */
-.icon-math-circled-empty:before { content: '\f01b'; } /* '' */
+.icon-math-circled-empty:before { content: '\f01b';font-size: 60px; color: #E33E5A} /* '' */
 .icon-math-circled:before { content: '\f01c'; } /* '' */
 .icon-calc:before { content: '\f1ec'; } /* '' */

@@ -1,0 +1,78 @@
+.section-application {
+    height:0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buttons input {
+    width: 26vh;
+    height: 6vh;
+    margin: 1vh;
+    border:2px solid #78788c;
+    font-size: 25px;
+    color:#78788c;
+    transition:all .3s
+}
+.buttons input:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.buttons input:nth-child(1):hover {
+    background-color: red;
+}
+.buttons input:nth-child(2):hover {
+    background-color: green;
+}
+.buttons input:nth-child(3):hover {
+    background-color: blue;
+}
+.buttons input:nth-child(4):hover {
+    background-color: olive;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.color-picker-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.color-picker {
+    width: 10vh;
+    height: 6vh;
+    border:2px solid #78788c;
+    font-size: 25px;
+    color:#78788c;
+}
+
+.buttons-back-reset {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.buttons-back-reset input {
+    width: 20vh;
+    height: 6vh;
+    margin: 1vh;
+    border:2px solid #78788c;
+    font-size: 25px;
+    color:#78788c;
+    transition:all .3s
+}
+
+.buttons-back-reset input:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #E33E5A;
+}

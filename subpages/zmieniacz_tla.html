@@ -10,7 +10,8 @@
 
     <link rel="stylesheet" href="../css/fontello.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style_kontakt.css">
+    <link rel="stylesheet" href="../css/style_aplikacje.css">
+    <link rel="stylesheet" href="../css/style_zmieniacz_tla.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,26 +30,37 @@
             <li><a href="../index.html">Strona Główna</a></li>
             <li><a href="ciekawostki.html">Ciekawostki</a></li>
             <li><a href="znani_matematycy.html">Znani Matematycy</a></li>
-            <li><a href="aplikacje.html">Aplikacje</a></li>
+            <li><a href="aplikacje.html" class="active">Aplikacje</a></li>
             <li><a href="wynalazki.html">Wynalazki</a></li>
             <li><a href="sklep.html">Sklep</a></li>
-            <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </header>
 
     <main>
-        <form action="">
-            <h1>Formularz Kontaktowy</h1>
-            <p>Imie: <input type="text" placeholder="Wpisz swoje imie.."></p>
-            <p>E-mail: <input type="email" placeholder="Wpisz swoj email.."></p>
-            <p>Wiadomość: <input type="text" placeholder="Wpisz swoja wiadomosc.."></p>
-            <button  type="submit" style="align-self: flex-end">Wyslij</button>
-            <a href="mailto:kacperwadecki33@gmail.com">Wyslij maila ze swojej poczty</a>
-        </form>
+        <section class="section-application">
+            <h1>Zmieniacz Tła</h1>
+            <div class="buttons">
+                <input type="button" value="Czerwony" onclick='switchColor("#FF0000")'>
+                <input type="button" value="Zielony" onclick='switchColor("#008000")'>
+                <input type="button" value="Niebieski" onclick='switchColor("#0000FF")'>
+                <input type="button" value="Oliwkowy" onclick='switchColor("#808000")'>
+            </div>
+            <h2>Wybierz Sam Kolor</h2>
+            <div class="color-picker-container">
+                <input type="color" name="color-picker" class="color-picker" value="#1A1B2F">
+            </div>
+            <div class="buttons-back-reset">
+                <a href="aplikacje.html"><input type="button" value="Powrót"></a>
+                <input type="button" value="Reset" onclick='switchColor("#1A1B2F")'>
+            </div>
+        </section>
     </main>
 
     <footer>
         <p>Copyrights © Kacper Wadecki</p>
     </footer>
+    
+    <script src="../scripts/kolorujtlo2.js"></script>
 </body>
 </html>

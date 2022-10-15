@@ -1,5 +1,10 @@
-button1 = document.getElementById("button1");
+var colorPicker = document.querySelector(".color-picker");
 
-button1.addEventListener("click", () => {
-    document.body.style.backgroundColor = "red";
+colorPicker.addEventListener("input", () => {
+    document.body.style.backgroundColor = colorPicker.value;
 })
+
+const switchColor = (color) => {
+    document.body.style.backgroundColor = color;
+    colorPicker.value = color;
+}
